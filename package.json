@@ -1,0 +1,30 @@
+{
+  "name": "guild-element",
+  "version": "0.1.0",
+  "description": "BAse class for Web Components in Guild based on LitElement",
+  "main": "dist/guild-element.js",
+  "module": "dist/guild-element.js",
+  "types": "dist/guild-element.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/GuildNetwork/guild-element.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/GuildNetwork/guild-element/issues"
+  },
+  "homepage": "https://github.com/GuildNetwork/guild-element#readme",
+  "devDependencies": {
+    "@webcomponents/webcomponentsjs": "^2.1.3",
+    "tslint": "^5.11.0",
+    "typescript": "^3.1.1"
+  },
+  "dependencies": {
+    "@polymer/lit-element": "^0.6.2"
+  }
+}
